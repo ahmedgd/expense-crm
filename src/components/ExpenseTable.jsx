@@ -30,7 +30,7 @@ const ExpenseTable = ({ data = [], onDelete, onEdit }) => {
                 <td>{exp.date}</td>
                 <td>{exp.category}</td>
                 <td>{exp.description}</td>
-                <td>${exp.amount}</td>
+                <td>AED{exp.amount}</td>
                 <td>{exp.paymentMethod}</td>
                 <td>
                   <span
