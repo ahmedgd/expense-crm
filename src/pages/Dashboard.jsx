@@ -32,7 +32,6 @@ const Dashboard = () => {
   <Navbar />
   <h2 className="mb-4 text-center text-primary">Expense Tracker CRM</h2>
 
-      <h2 className="mb-4 text-center text-primary">Expense Tracker CRM</h2>
       <ExpenseForm
         onAdd={handleAddExpense}
         initialData={editingIndex !== null ? expenses[editingIndex] : null}
